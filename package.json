@@ -2,14 +2,14 @@
   "name": "shopping-cart-top",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://adam-moujar.github.io/Shopping-Cart-TOP",
   "type": "module",
+  "homepage": "https://adam-moujar.github.io/Shopping-Cart-TOP",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prebuild": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
